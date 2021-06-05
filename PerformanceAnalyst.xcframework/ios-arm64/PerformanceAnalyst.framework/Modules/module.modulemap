@@ -1,0 +1,11 @@
+framework module PerformanceAnalyst {
+  umbrella header "PerformanceAnalyst-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module PerformanceAnalyst.Swift {
+    header "PerformanceAnalyst-Swift.h"
+    requires objc
+}
